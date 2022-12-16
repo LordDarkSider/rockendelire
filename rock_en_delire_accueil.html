@@ -1,0 +1,144 @@
+<!doctype html>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<html>
+	<head>
+	<title>Rock en Délire</title>
+    <link rel="icon" href="img/icon.ico">
+    <link href="style/rock_en_delire.css" rel="stylesheet">
+    <link href="style/menu.css" rel="stylesheet">
+	</head>
+	
+	<body>
+
+        <a href="rock_en_delire_accueil.html"><img id="logo" src="img/logo.png" alt="logo"></a>
+    
+        <div id="head">
+
+            <div id="bloc_menu">
+                <ul id="menu">
+                    <li><a href="#">Festival 2022</a>
+                        <ul>
+                            <li><a href="#">Actualités</a></li>
+                            <li><a href="#">Programme</a></li>
+                            <li><a href="#">Artistes</a></li>
+                            <li><a href="#">Le festival en ligne</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Infos pratiques</a>
+                        <ul>
+                            <li><a href="#">Plan du site</a></li>
+                            <li><a href="#">Plan d'accès</a></li>
+                            <li><a href="#">Hébergement</a></li>
+                            <li><a href="#">Météo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Boutique</a>
+                        <ul>
+                            <li><a href="#">Billeterie</a></li>
+                            <li><a href="#">Vêtements</a></li>
+                            <li><a href="#">Souvenirs</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Presse</a>
+                        <ul>
+                            <li><a href="#">Revue de presse</a></li>
+                            <li><a href="#">Salle de presse</a></li>
+                            <li><a href="#">Dossier de presse</a></li>
+                            <li><a href="#">Demande d'accréditation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Communauté</a>
+                        <ul>
+                            <li><a href="#">Chat</a></li>
+                            <li><a href="#">Votre avis</a></li>
+                            <li><a href="#">Sondage</a></li>
+                            <li><a href="#">Partenaires</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div id="search">
+                <input id="search_bar" onblur="close_search()" type="text" minlength="14" placeholder="Rechercher...">
+                <img id="search_button" onclick="open_search()" src="img/search icon.png" alt="search button">
+            </div>
+
+            <div id="title">
+                <h1>ROCK EN DÉLIRE</h1>
+            </div>
+    
+        </div>
+
+        <div id="rub1" class="rubrique">
+            
+            <h2>Les Dernières actualités</h2>
+            
+            <div class="slide-container">
+                
+                <div class="custom-slider fade">
+                    <div class="slide-title" style="color:gold;">Okean Elzy sera présent au festival !</div>
+                    <img class="slide-img" src="img/Okean Elzy.jpg">
+                    <div class="slide-text" style="color:white;">Pendant que la guerre continue de faire rage en Ukraine, Okean Elzy soutient son pays à travers le monde. Le groupe de rock ukrainien fondé en 1994 et porté par sa figure phare, Sviatoslav Vakartchouk, est en train d'effectuer une tournée dans plusieurs pays et passerons très bientôt au festival de Rock en Délire...</div>
+                    <div><button class="slide-btn" style="color: white; border-color: white;">En savoir plus</button></div>
+                </div>
+                
+                <div class="custom-slider fade">
+                    <div class="slide-title" style="color:red;">Les 4 Fantastiques : qui se cachent derrière ces figures emblèmatiques ?</div>
+                    <img class="slide-img" src="img/Les 4 Fantastiques.jpg">
+                    <div class="slide-text" style="color:white;">On le croyait mort depuis 1791 et pourtant, Mozart est là ! Et il n'est pas revenu seul. Beethoven, Bach et Chopin sont également ressortis de leur tombe et se sont convertis ensemble au rock. Après maintes demandes, les 4 Fantastiques, vedettes de cette édition 2022 de Rock en Délire, ont accepté d'être interviewé et on a pu enfin découvrir qui ils étaient réellement...</div>
+                    <div><button class="slide-btn" style="color: white; border-color: white;">En savoir plus</button></div>
+                </div>
+                
+                <div class="custom-slider fade">
+                    <div class="slide-title" style="color:gold;">Feu d'artifice annulé !</div>
+                    <img class="slide-img" src="img/fireworks.jpg">
+                    <div class="slide-text" style="color:white;">Au vu de la circulaire préfectorale du 4 juillet 2022, la décision d’annuler le grand feu d’artifice prévu ce dimanche 10 juillet pour la fin du festival de Rock en Délire a été prise. Par souci de responsabilité et vu les risques très sévères d’incendie, le feu d’artifice est annulé afin de protéger les forains et la forêt qui entoure le site. Ce qui n'empêchera pas certains, fâchés par cette décision, de faire péter eux-mêmes leurs pétards...</div>
+                    <div><button class="slide-btn" style="color: white; border-color: white;">En savoir plus</button></div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+
+            <div class="slide-dot">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        
+        </div>
+
+        <div id="rub2" class="rubrique">
+        <a href="https://my.forms.app/form/639cd4ad2db11127ce0fd632" target="_blank"><img class="infograph" src="img/benevolat.png" alt="appel au bénévoles"></a>
+        </div>
+
+        <footer>
+            
+            <div id="footer_social">
+                <a href="https://www.facebook.com/RockenDelire" target="_blank"><img class="icon_social" src="img/facebook icon.png" alt="facebook"></a>
+                <a href="https://twitter.com/RockenDelire" target="_blank"><img class="icon_social" src="img/twitter icon.png" alt="twitter"></a>
+                <a href="https://www.instagram.com/RockenDelire/" target="_blank"><img class="icon_social" src="img/instagram icon.png" alt="instagram"></a>
+                <a style="margin-left: 4em;" href="https://my.forms.app/form/639cdef92db11127ce0fe0dd" target="_blank"><img class="icon_social" src="img/newsletter.png" alt="newsletter"></a>
+                <p style="display: inline; vertical-align: 50%;">Inscrivez-vous à la Newsletter</p>
+            </div>
+      
+            <ul id="footer_rubriques">
+                <li class="footer_rubrique"><a href="rock_en_delire_accueil.html">Accueil</a></li>
+                <li class="footer_rubrique"><a href="#">CGU</a></li>
+                <li class="footer_rubrique"><a href="#">Mentions légales</a></li>
+                <li class="footer_rubrique"><a href="#">Confidentialité</a></li>
+                <li class="footer_rubrique"><a href="#">Crédits</a></li>
+            </ul>
+      
+            <p id="footer_copyright">Rock en Délire © Tous droits réservés - 2022</p>
+      
+        </footer>
+
+
+        <script type="text/javascript" src="script/rock_en_delire.js"></script>
+	
+    </body>
+</html>
