@@ -1,0 +1,30 @@
+#programme{
+    background-color:rgba(0, 0, 0, 0.75);;
+    color: white;
+    margin: auto;
+    width: max-content;
+}
+table{
+  border-collapse: separate;
+  border-spacing: 25px;
+  text-align: center;
+  margin: auto;
+}
+td{
+  border-top: 3px solid white;
+  padding: 10px;
+}
+.prog_day{
+  border-top: 0;
+  font-family: "Aller";
+  font-size: 20px;
+}
+.prog_artist{
+  font-family: "Aller";
+  color: gold;
+  font-size: 18px;
+}
+.prog_time{
+  font-family: "Aller";
+  font-size: 14px;
+}

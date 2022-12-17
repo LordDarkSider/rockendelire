@@ -1,6 +1,8 @@
 let search_button = document.getElementById('search_button');
 let search_bar = document.getElementById('search_bar');
 
+function home(){window.location.href="index.html"}
+
 function open_search(){
     search_button.style.display = "none";
     search_bar.style.display = "inline-block";
