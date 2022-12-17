@@ -1,0 +1,34 @@
+#bloc_artistes{
+    background-color:rgba(0, 0, 0, 0.75);;
+    color: white;
+    margin: auto;
+    width: max-content;
+}
+.line_groupes{
+    display: block;
+    margin: auto;
+    width: max-content;
+}
+.groupe{
+    padding: 30px;
+    display: inline-block;
+}
+.img_groupe{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.nom_groupe{
+    font-family: "Aller";
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0.25em;
+}
+#vedette{
+    display: block;
+}
+#img_vedette{
+    width: 1000px;
+}

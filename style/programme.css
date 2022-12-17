@@ -28,3 +28,12 @@ td{
   font-family: "Aller";
   font-size: 14px;
 }
+
+#videoframe {
+  display: block;
+  width:720px;
+  height:480px;
+  border:none;
+  overflow:hidden;
+  margin: auto;
+}
