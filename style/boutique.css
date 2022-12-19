@@ -1,0 +1,13 @@
+#vetements{
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    display: block;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+#tshirts{
+    width: 90%;
+    padding: 10px;
+}

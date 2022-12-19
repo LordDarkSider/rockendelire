@@ -80,6 +80,8 @@ h1{
 }
 
 .rubrique{
+  width: 100%;
+  margin: auto;
   margin-bottom: 8em;
 }
 
@@ -253,4 +255,27 @@ footer {
   font-size:16px;
   color:#aaa;
   margin-bottom:0;
+}
+
+
+#anim_presentation{
+  display: block;
+  width: max-content;
+  color:#ffffff;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+#anim{
+  width: 720px;
+  filter: brightness(60%);
+}
+#presentation {
+  font-family: "Aller";
+  position: absolute;
+  font-size: 18px;
+  padding: 10px;
+  bottom: 0px;
+  text-align: center;
+  text-shadow: black 0.4em 0.4em 0.6em;
 }
